@@ -1,0 +1,49 @@
+# Versatia examples
+
+Every example is a repository of its own: one Paper 1.21.4 plugin (two, where the feature is about
+two plugins) showing exactly one feature of the [Versatia framework](https://versatiaframework.github.io/VersatiaDocs), with one file to
+read, the log lines to expect and a few things to try. Repositories are named
+`VersatiaExample-<Topic>-<Feature>`, so they sort by topic on GitHub; the order in which to read
+them is below.
+
+## Learning path
+
+1. [VersatiaExample-Resources-Extraction](https://github.com/VersatiaFramework/VersatiaExample-Resources-Extraction): Shows how files under resources/ are extracted into the data folder
+2. [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans): Shows local beans, constructor injection and the plugin bean
+3. [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers): Shows @Qualifier and @Primary resolving several beans of one type
+4. [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope): Shows a plugin-defined scope annotation inheriting a built-in one
+5. [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans): Shows private beans and functions handled through reflection
+6. [VersatiaExample-Lifecycle-AutoInvoke](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-AutoInvoke): Shows @AutoInvoke on the main class, a bean and an object
+7. [VersatiaExample-Events-Listeners](https://github.com/VersatiaFramework/VersatiaExample-Events-Listeners): Shows Bukkit listeners registered automatically, with injection
+8. [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans): Shows beans exposed by one plugin and injected by another
+9. [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches): Shows @DisableVersatiaFeatures on a base class and on the main class
+10. [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom): Shows a custom enhancement: an annotation and its processor in a library plugin
+
+## By topic
+
+### Resources
+
+| Example | Shows | Documentation |
+|---|---|---|| [VersatiaExample-Resources-Extraction](https://github.com/VersatiaFramework/VersatiaExample-Resources-Extraction) | Shows how files under resources/ are extracted into the data folder. | [Plugin resources](https://versatiaframework.github.io/VersatiaDocs/docs/resources) |
+### Dependency injection
+
+| Example | Shows | Documentation |
+|---|---|---|| [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans) | Shows local beans, constructor injection and the plugin bean. | [Dependency injection](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/) || [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers) | Shows @Qualifier and @Primary resolving several beans of one type. | [Names, qualifiers and @Primary](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/qualifiers) || [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope) | Shows a plugin-defined scope annotation inheriting a built-in one. | [Defining your own scope](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-scope) || [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans) | Shows private beans and functions handled through reflection. | [Direct access versus reflection](https://versatiaframework.github.io/VersatiaDocs/docs/internals/descriptor#direct-access-versus-reflection) || [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans) | Shows beans exposed by one plugin and injected by another. | [Beans across plugins](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/cross-plugin) |
+### Lifecycle
+
+| Example | Shows | Documentation |
+|---|---|---|| [VersatiaExample-Lifecycle-AutoInvoke](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-AutoInvoke) | Shows @AutoInvoke on the main class, a bean and an object. | [Auto-invoked functions](https://versatiaframework.github.io/VersatiaDocs/docs/lifecycle/auto-invoke) |
+### Events
+
+| Example | Shows | Documentation |
+|---|---|---|| [VersatiaExample-Events-Listeners](https://github.com/VersatiaFramework/VersatiaExample-Events-Listeners) | Shows Bukkit listeners registered automatically, with injection. | [Event listeners](https://versatiaframework.github.io/VersatiaDocs/docs/events) |
+### Enhancements
+
+| Example | Shows | Documentation |
+|---|---|---|| [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches) | Shows @DisableVersatiaFeatures on a base class and on the main class. | [Enhancements on a base class](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#enhancements-on-a-base-class) || [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom) | Shows a custom enhancement: an annotation and its processor in a library plugin. | [Defining your own enhancement](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-enhancement) |
+
+## Adding an example
+
+Start from [VersatiaExample-Template](https://github.com/VersatiaFramework/VersatiaExample-Template) ("Use this template"),
+keep the README sections, add a row to the tables above and an example card to the documentation
+page the example illustrates.
