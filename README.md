@@ -18,6 +18,8 @@ them is below.
 8. [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans): Shows beans exposed by one plugin and injected by another
 9. [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches): Shows @DisableVersatiaFeatures on a base class and on the main class
 10. [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom): Shows a custom enhancement: an annotation and its processor in a library plugin
+11. [VersatiaExample-Modules-Text](https://github.com/VersatiaFramework/VersatiaExample-Modules-Text): Shows the Text module: MiniMessage with runtime arguments and properties
+12. [VersatiaExample-Modules-Messages](https://github.com/VersatiaFramework/VersatiaExample-Modules-Messages): Shows the Messages module: files under messages/ reloaded with the plugin
 
 ## By topic
 
@@ -41,6 +43,13 @@ them is below.
 
 | Example | Shows | Documentation |
 |---|---|---|| [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches) | Shows @DisableVersatiaFeatures on a base class and on the main class. | [Enhancements on a base class](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#enhancements-on-a-base-class) || [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom) | Shows a custom enhancement: an annotation and its processor in a library plugin. | [Defining your own enhancement](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-enhancement) |
+
+### Modules
+
+| Example | Shows | Documentation |
+|---|---|---|
+| [VersatiaExample-Modules-Text](https://github.com/VersatiaFramework/VersatiaExample-Modules-Text) | Shows the Text module: MiniMessage with runtime arguments and properties. | [Text module](https://versatiaframework.github.io/VersatiaDocs/docs/modules/text) |
+| [VersatiaExample-Modules-Messages](https://github.com/VersatiaFramework/VersatiaExample-Modules-Messages) | Shows the Messages module: files under messages/ reloaded with the plugin. | [Messages module](https://versatiaframework.github.io/VersatiaDocs/docs/modules/messages) |
 
 ## Adding an example
 
