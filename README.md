@@ -18,38 +18,50 @@ them is below.
 8. [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans): Shows beans exposed by one plugin and injected by another
 9. [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches): Shows @DisableVersatiaFeatures on a base class and on the main class
 10. [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom): Shows a custom enhancement: an annotation and its processor in a library plugin
-11. [VersatiaExample-Modules-Text](https://github.com/VersatiaFramework/VersatiaExample-Modules-Text): Shows the Text module: MiniMessage with runtime arguments and properties
-12. [VersatiaExample-Modules-Messages](https://github.com/VersatiaFramework/VersatiaExample-Modules-Messages): Shows the Messages module: files under messages/ reloaded with the plugin
+11. [VersatiaExample-Modules-Messages](https://github.com/VersatiaFramework/VersatiaExample-Modules-Messages): Shows the Messages module: files under messages/ reloaded with the plugin, filled with runtime arguments
 
 ## By topic
 
 ### Resources
 
 | Example | Shows | Documentation |
-|---|---|---|| [VersatiaExample-Resources-Extraction](https://github.com/VersatiaFramework/VersatiaExample-Resources-Extraction) | Shows how files under resources/ are extracted into the data folder. | [Plugin resources](https://versatiaframework.github.io/VersatiaDocs/docs/resources) |
+|---|---|---|
+| [VersatiaExample-Resources-Extraction](https://github.com/VersatiaFramework/VersatiaExample-Resources-Extraction) | Shows how files under resources/ are extracted into the data folder. | [Plugin resources](https://versatiaframework.github.io/VersatiaDocs/docs/resources) |
+
 ### Dependency injection
 
 | Example | Shows | Documentation |
-|---|---|---|| [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans) | Shows local beans, constructor injection and the plugin bean. | [Dependency injection](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/) || [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers) | Shows @Qualifier and @Primary resolving several beans of one type. | [Names, qualifiers and @Primary](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/qualifiers) || [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope) | Shows a plugin-defined scope annotation inheriting a built-in one. | [Defining your own scope](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-scope) || [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans) | Shows private beans and functions handled through reflection. | [Direct access versus reflection](https://versatiaframework.github.io/VersatiaDocs/docs/internals/descriptor#direct-access-versus-reflection) || [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans) | Shows beans exposed by one plugin and injected by another. | [Beans across plugins](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/cross-plugin) |
+|---|---|---|
+| [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans) | Shows local beans, constructor injection and the plugin bean. | [Dependency injection](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/) |
+| [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers) | Shows @Qualifier and @Primary resolving several beans of one type. | [Names, qualifiers and @Primary](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/qualifiers) |
+| [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope) | Shows a plugin-defined scope annotation inheriting a built-in one. | [Defining your own scope](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-scope) |
+| [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans) | Shows private beans and functions handled through reflection. | [Direct access versus reflection](https://versatiaframework.github.io/VersatiaDocs/docs/internals/descriptor#direct-access-versus-reflection) |
+| [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans) | Shows beans exposed by one plugin and injected by another. | [Beans across plugins](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/cross-plugin) |
+
 ### Lifecycle
 
 | Example | Shows | Documentation |
-|---|---|---|| [VersatiaExample-Lifecycle-AutoInvoke](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-AutoInvoke) | Shows @AutoInvoke on the main class, a bean and an object. | [Auto-invoked functions](https://versatiaframework.github.io/VersatiaDocs/docs/lifecycle/auto-invoke) |
+|---|---|---|
+| [VersatiaExample-Lifecycle-AutoInvoke](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-AutoInvoke) | Shows @AutoInvoke on the main class, a bean and an object. | [Auto-invoked functions](https://versatiaframework.github.io/VersatiaDocs/docs/lifecycle/auto-invoke) |
+
 ### Events
 
 | Example | Shows | Documentation |
-|---|---|---|| [VersatiaExample-Events-Listeners](https://github.com/VersatiaFramework/VersatiaExample-Events-Listeners) | Shows Bukkit listeners registered automatically, with injection. | [Event listeners](https://versatiaframework.github.io/VersatiaDocs/docs/events) |
+|---|---|---|
+| [VersatiaExample-Events-Listeners](https://github.com/VersatiaFramework/VersatiaExample-Events-Listeners) | Shows Bukkit listeners registered automatically, with injection. | [Event listeners](https://versatiaframework.github.io/VersatiaDocs/docs/events) |
+
 ### Enhancements
 
 | Example | Shows | Documentation |
-|---|---|---|| [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches) | Shows @DisableVersatiaFeatures on a base class and on the main class. | [Enhancements on a base class](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#enhancements-on-a-base-class) || [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom) | Shows a custom enhancement: an annotation and its processor in a library plugin. | [Defining your own enhancement](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-enhancement) |
+|---|---|---|
+| [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches) | Shows @DisableVersatiaFeatures on a base class and on the main class. | [Enhancements on a base class](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#enhancements-on-a-base-class) |
+| [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom) | Shows a custom enhancement: an annotation and its processor in a library plugin. | [Defining your own enhancement](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-enhancement) |
 
 ### Modules
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-Modules-Text](https://github.com/VersatiaFramework/VersatiaExample-Modules-Text) | Shows the Text module: MiniMessage with runtime arguments and properties. | [Text module](https://versatiaframework.github.io/VersatiaDocs/docs/modules/text) |
-| [VersatiaExample-Modules-Messages](https://github.com/VersatiaFramework/VersatiaExample-Modules-Messages) | Shows the Messages module: files under messages/ reloaded with the plugin. | [Messages module](https://versatiaframework.github.io/VersatiaDocs/docs/modules/messages) |
+| [VersatiaExample-Modules-Messages](https://github.com/VersatiaFramework/VersatiaExample-Modules-Messages) | Shows the Messages module: files under messages/ reloaded with the plugin, filled with runtime arguments. | [Messages module](https://versatiaframework.github.io/VersatiaDocs/docs/modules/messages) |
 
 ## Adding an example
 
