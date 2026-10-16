@@ -1,10 +1,17 @@
 # Versatia examples
 
 Every example is a repository of its own: one Paper 1.21.4 plugin (two, where the feature is about
-two plugins) showing exactly one feature of the [Versatia framework](https://versatiaframework.github.io/VersatiaDocs), with one file to
+two plugins) showing exactly one feature of the [Versatia framework](https://versatiaframework.github.io/VersatiaDocs/), with one file to
 read, the log lines to expect and a few things to try. Repositories are named
 `VersatiaExample-<Topic>-<Feature>`, so they sort by topic on GitHub; the order in which to read
 them is below.
+
+## Before you start
+
+Every example runs on a Paper 1.21.4 server with VersatiaCore installed. The examples whose
+"Things to try" reload a plugin with `/versatia reload` also need the
+[CommandAPI](https://commandapi.jorel.dev) 12.x plugin, which registers that command; each README
+lists what its example needs under Building.
 
 ## Learning path
 
@@ -39,7 +46,7 @@ them is below.
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans) | Shows local beans, constructor injection and the plugin bean. | [Dependency injection](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/) |
+| [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans) | Shows local beans, constructor injection and the plugin bean. | [Dependency injection](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection) |
 | [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers) | Shows @Qualifier and @Primary resolving several beans of one type. | [Names, qualifiers and @Primary](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/qualifiers) |
 | [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope) | Shows a plugin-defined scope annotation inheriting a built-in one. | [Defining your own scope](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-scope) |
 | [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans) | Shows private beans and functions handled through reflection. | [Direct access versus reflection](https://versatiaframework.github.io/VersatiaDocs/docs/internals/descriptor#direct-access-versus-reflection) |
