@@ -16,12 +16,12 @@ lists what its example needs under Building.
 ## Learning path
 
 1. [VersatiaExample-Resources-Extraction](https://github.com/VersatiaFramework/VersatiaExample-Resources-Extraction): Shows how files under `resources/` are extracted into the data folder
-2. [VersatiaExample-Config-Values](https://github.com/VersatiaFramework/VersatiaExample-Config-Values): Shows `@Value` properties set from YAML files at start and reload
-3. [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans): Shows local beans, constructor injection and the plugin bean
-4. [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers): Shows `@Qualifier` and `@Primary` resolving several beans of one type
-5. [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope): Shows a plugin-defined scope annotation inheriting a built-in one
-6. [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans): Shows private beans and functions handled through reflection
-7. [VersatiaExample-Lifecycle-AutoInvoke](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-AutoInvoke): Shows `@AutoInvoke` on the main class, a bean and an object
+2. [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans): Shows local beans, constructor injection and the plugin bean
+3. [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers): Shows `@Qualifier` and `@Primary` resolving several beans of one type
+4. [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope): Shows a plugin-defined scope annotation inheriting a built-in one
+5. [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans): Shows private beans and functions handled through reflection
+6. [VersatiaExample-Lifecycle-AutoInvoke](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-AutoInvoke): Shows `@AutoInvoke` on the main class, a bean and an object
+7. [VersatiaExample-Config-Values](https://github.com/VersatiaFramework/VersatiaExample-Config-Values): Shows `@Value` properties set from YAML files at start and reload
 8. [VersatiaExample-Lifecycle-Reload](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-Reload): Shows a plugin designed for reload: values re-read, a derived value rebuilt, a task rescheduled when its interval changes
 9. [VersatiaExample-Events-Listeners](https://github.com/VersatiaFramework/VersatiaExample-Events-Listeners): Shows Bukkit listeners registered automatically, with injection
 10. [VersatiaExample-DI-OptionalPlugins](https://github.com/VersatiaFramework/VersatiaExample-DI-OptionalPlugins): Shows a bean conditional on Vault with a fallback, and a condition of your own
