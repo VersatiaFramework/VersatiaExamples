@@ -24,11 +24,15 @@ lists what its example needs under Building.
 7. [VersatiaExample-Config-Values](https://github.com/VersatiaFramework/VersatiaExample-Config-Values): Shows `@Value` properties set from YAML files at start and reload
 8. [VersatiaExample-Lifecycle-Reload](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-Reload): Shows a plugin designed for reload: values re-read, a derived value rebuilt, a task rescheduled when its interval changes
 9. [VersatiaExample-Events-Listeners](https://github.com/VersatiaFramework/VersatiaExample-Events-Listeners): Shows Bukkit listeners registered automatically, with injection
-10. [VersatiaExample-DI-OptionalPlugins](https://github.com/VersatiaFramework/VersatiaExample-DI-OptionalPlugins): Shows a bean conditional on Vault with a fallback, and a condition of your own
-11. [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans): Shows beans exposed by one plugin and injected by another
-12. [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches): Shows `@DisableVersatiaFeatures` on a base class and on the main class
-13. [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom): Shows a custom enhancement: an annotation and its processor in a library plugin
-14. [VersatiaExample-Modules-Messages](https://github.com/VersatiaFramework/VersatiaExample-Modules-Messages): Shows the Messages module: files under `messages/` reloaded with the plugin, filled with runtime arguments
+10. [VersatiaExample-Tasks-Background](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Background): Shows a `BackgroundTask` broadcasting at a configured period, restarted by every reload
+11. [VersatiaExample-Tasks-PluginScope](https://github.com/VersatiaFramework/VersatiaExample-Tasks-PluginScope): Shows coroutines of your own in the injected `PluginScope`: a combat tag per player in `KeyedJobs`
+12. [VersatiaExample-Tasks-Conditions](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Conditions): Shows conditions rechecked on events: a teleport countdown cancelled by moving, a beacon lit while players are online
+13. [VersatiaExample-Tasks-Threads](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Threads): Shows file reading moved off the server thread with `withContext(Dispatchers.IO)` and back for the Bukkit calls
+14. [VersatiaExample-DI-OptionalPlugins](https://github.com/VersatiaFramework/VersatiaExample-DI-OptionalPlugins): Shows a bean conditional on Vault with a fallback, and a condition of your own
+15. [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans): Shows beans exposed by one plugin and injected by another
+16. [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches): Shows `@DisableVersatiaFeatures` on a base class and on the main class
+17. [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom): Shows a custom enhancement: an annotation and its processor in a library plugin
+18. [VersatiaExample-Modules-Messages](https://github.com/VersatiaFramework/VersatiaExample-Modules-Messages): Shows the Messages module: files under `messages/` reloaded with the plugin, filled with runtime arguments
 
 ## By topic
 
@@ -67,6 +71,15 @@ lists what its example needs under Building.
 | Example | Shows | Documentation |
 |---|---|---|
 | [VersatiaExample-Events-Listeners](https://github.com/VersatiaFramework/VersatiaExample-Events-Listeners) | Bukkit listeners registered automatically, with injection | [Event listeners](https://versatiaframework.github.io/VersatiaDocs/docs/events) |
+
+### Tasks
+
+| Example | Shows | Documentation |
+|---|---|---|
+| [VersatiaExample-Tasks-Background](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Background) | A `BackgroundTask` broadcasting at a configured period, restarted by every reload | [Background tasks](https://versatiaframework.github.io/VersatiaDocs/docs/tasks#background-tasks) |
+| [VersatiaExample-Tasks-PluginScope](https://github.com/VersatiaFramework/VersatiaExample-Tasks-PluginScope) | Coroutines of your own in the injected `PluginScope`: a combat tag per player in `KeyedJobs` | [Your own coroutines](https://versatiaframework.github.io/VersatiaDocs/docs/tasks#your-own-coroutines) |
+| [VersatiaExample-Tasks-Conditions](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Conditions) | Conditions rechecked on events: a teleport countdown cancelled by moving, a beacon lit while players are online | [Conditions](https://versatiaframework.github.io/VersatiaDocs/docs/tasks#conditions) |
+| [VersatiaExample-Tasks-Threads](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Threads) | File reading moved off the server thread with `withContext(Dispatchers.IO)` and back for the Bukkit calls | [Threads](https://versatiaframework.github.io/VersatiaDocs/docs/tasks#threads) |
 
 ### Enhancements
 
