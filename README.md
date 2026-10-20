@@ -16,7 +16,7 @@ lists what its example needs under Building.
 ## Learning path
 
 1. [VersatiaExample-Resources-Extraction](https://github.com/VersatiaFramework/VersatiaExample-Resources-Extraction): Shows how files under `resources/` are extracted into the data folder
-2. [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans): Shows local beans, constructor injection and the plugin bean
+2. [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans): Shows local beans, constructor injection and the injected `Logger` every plugin has
 3. [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers): Shows `@Qualifier` and `@Primary` resolving several beans of one type
 4. [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope): Shows a plugin-defined scope annotation inheriting a built-in one
 5. [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans): Shows private beans and functions handled through reflection
@@ -52,7 +52,7 @@ lists what its example needs under Building.
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans) | Local beans, constructor injection and the plugin bean | [Dependency injection](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection) |
+| [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans) | Local beans, constructor injection and the injected `Logger` every plugin has | [Dependency injection](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection) |
 | [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers) | `@Qualifier` and `@Primary` resolving several beans of one type | [Names, qualifiers and `@Primary`](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/qualifiers) |
 | [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope) | A plugin-defined scope annotation inheriting a built-in one | [Defining your own scope](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-scope) |
 | [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans) | Private beans and functions handled through reflection | [Direct access versus reflection](https://versatiaframework.github.io/VersatiaDocs/docs/internals/descriptor#direct-access-versus-reflection) |
