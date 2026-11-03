@@ -78,9 +78,9 @@ lists what its example needs under Building.
 | Example | Shows | Documentation |
 |---|---|---|
 | [VersatiaExample-Tasks-Background](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Background) | A `BackgroundTask` broadcasting at a configured period, restarted by every reload | [Background tasks](https://versatia.dev/docs/tasks#background-tasks) |
-| [VersatiaExample-Tasks-PluginScope](https://github.com/VersatiaFramework/VersatiaExample-Tasks-PluginScope) | Coroutines of your own in the injected `PluginScope`: a combat tag per player in `KeyedJobs` | [Your own coroutines](https://versatia.dev/docs/tasks#your-own-coroutines) |
-| [VersatiaExample-Tasks-Conditions](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Conditions) | Conditions rechecked on events: a teleport countdown cancelled by moving, a beacon lit while players are online | [Conditions](https://versatia.dev/docs/tasks#conditions) |
-| [VersatiaExample-Tasks-Threads](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Threads) | File reading moved off the server thread with `withContext(Dispatchers.IO)` and back for the Bukkit calls | [Threads](https://versatia.dev/docs/tasks#threads) |
+| [VersatiaExample-Tasks-PluginScope](https://github.com/VersatiaFramework/VersatiaExample-Tasks-PluginScope) | Coroutines of your own in the injected `PluginScope`: a combat tag per player in `KeyedJobs` | [Your own coroutines](https://versatia.dev/docs/tasks/coroutines) |
+| [VersatiaExample-Tasks-Conditions](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Conditions) | Conditions rechecked on events: a teleport countdown cancelled by moving, a beacon lit while players are online | [Conditions](https://versatia.dev/docs/tasks/conditions) |
+| [VersatiaExample-Tasks-Threads](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Threads) | File reading moved off the server thread with `withContext(Dispatchers.IO)` and back for the Bukkit calls | [Threads](https://versatia.dev/docs/tasks/coroutines#threads) |
 
 ### Enhancements
 
