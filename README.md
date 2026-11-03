@@ -32,7 +32,7 @@ lists what its example needs under Building.
 15. [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans): Shows beans exposed by one plugin and injected by another
 16. [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches): Shows `@DisableVersatiaFeatures` on a base class and on the main class
 17. [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom): Shows a custom enhancement: an annotation and its processor in a library plugin
-18. [VersatiaExample-Modules-Messages](https://github.com/VersatiaFramework/VersatiaExample-Modules-Messages): Shows the Messages module: files under `messages/` reloaded with the plugin, filled with runtime arguments
+18. [VersatiaExample-Text-Messages](https://github.com/VersatiaFramework/VersatiaExample-Text-Messages): Shows messages: files under `messages/` reloaded with the plugin, filled with runtime arguments
 19. [VersatiaExample-Modules-Database](https://github.com/VersatiaFramework/VersatiaExample-Modules-Database): Shows the Database module: player coins in a store loaded at login, migrations from the JAR, a transaction and a leaderboard read in the background
 
 ## By topic
@@ -89,11 +89,16 @@ lists what its example needs under Building.
 | [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches) | `@DisableVersatiaFeatures` on a base class and on the main class | [Enhancements on a base class](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#enhancements-on-a-base-class) |
 | [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom) | A custom enhancement: an annotation and its processor in a library plugin | [Defining your own enhancement](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-enhancement) |
 
+### Text
+
+| Example | Shows | Documentation |
+|---|---|---|
+| [VersatiaExample-Text-Messages](https://github.com/VersatiaFramework/VersatiaExample-Text-Messages) | Messages: files under `messages/` reloaded with the plugin, filled with runtime arguments | [Messages](https://versatiaframework.github.io/VersatiaDocs/docs/messages) |
+
 ### Modules
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-Modules-Messages](https://github.com/VersatiaFramework/VersatiaExample-Modules-Messages) | The Messages module: files under `messages/` reloaded with the plugin, filled with runtime arguments | [Messages module](https://versatiaframework.github.io/VersatiaDocs/docs/modules/messages) |
 | [VersatiaExample-Modules-Database](https://github.com/VersatiaFramework/VersatiaExample-Modules-Database) | The Database module: player coins in a store loaded at login, migrations from the JAR, a transaction and a leaderboard read in the background | [Database module](https://versatiaframework.github.io/VersatiaDocs/docs/modules/database) |
 
 ## Adding an example
