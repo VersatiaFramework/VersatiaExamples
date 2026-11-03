@@ -1,7 +1,7 @@
 # Versatia examples
 
 Every example is a repository of its own: one Paper 1.21.4 plugin (two, where the feature is about
-two plugins) showing exactly one feature of the [Versatia framework](https://versatiaframework.github.io/VersatiaDocs/), with one file to
+two plugins) showing exactly one feature of the [Versatia framework](https://versatia.dev/), with one file to
 read, the log lines to expect and a few things to try. Repositories are named
 `VersatiaExample-<Topic>-<Feature>`, so they sort by topic on GitHub; the order in which to read
 them is below.
@@ -41,65 +41,65 @@ lists what its example needs under Building.
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-Resources-Extraction](https://github.com/VersatiaFramework/VersatiaExample-Resources-Extraction) | How files under `resources/` are extracted into the data folder | [Plugin resources](https://versatiaframework.github.io/VersatiaDocs/docs/resources) |
+| [VersatiaExample-Resources-Extraction](https://github.com/VersatiaFramework/VersatiaExample-Resources-Extraction) | How files under `resources/` are extracted into the data folder | [Plugin resources](https://versatia.dev/docs/resources) |
 
 ### Configuration
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-Config-Values](https://github.com/VersatiaFramework/VersatiaExample-Config-Values) | `@Value` properties set from YAML files at start and reload | [Configuration values](https://versatiaframework.github.io/VersatiaDocs/docs/configuration) |
+| [VersatiaExample-Config-Values](https://github.com/VersatiaFramework/VersatiaExample-Config-Values) | `@Value` properties set from YAML files at start and reload | [Configuration values](https://versatia.dev/docs/configuration) |
 
 ### Dependency injection
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans) | Local beans, constructor injection and the injected `Logger` every plugin has | [Dependency injection](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection) |
-| [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers) | `@Qualifier` and `@Primary` resolving several beans of one type | [Names, qualifiers and `@Primary`](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/qualifiers) |
-| [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope) | A plugin-defined scope annotation inheriting a built-in one | [Defining your own scope](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-scope) |
-| [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans) | Private beans and functions handled through reflection | [Direct access versus reflection](https://versatiaframework.github.io/VersatiaDocs/docs/internals/descriptor#direct-access-versus-reflection) |
-| [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans) | Beans exposed by one plugin and injected by another | [Beans across plugins](https://versatiaframework.github.io/VersatiaDocs/docs/dependency-injection/cross-plugin) |
-| [VersatiaExample-DI-OptionalPlugins](https://github.com/VersatiaFramework/VersatiaExample-DI-OptionalPlugins) | A bean conditional on Vault with `@Primary`, a fallback without it, and a condition of your own | [Optional plugins](https://versatiaframework.github.io/VersatiaDocs/docs/optional-plugins) |
+| [VersatiaExample-DI-Beans](https://github.com/VersatiaFramework/VersatiaExample-DI-Beans) | Local beans, constructor injection and the injected `Logger` every plugin has | [Dependency injection](https://versatia.dev/docs/dependency-injection) |
+| [VersatiaExample-DI-Qualifiers](https://github.com/VersatiaFramework/VersatiaExample-DI-Qualifiers) | `@Qualifier` and `@Primary` resolving several beans of one type | [Names, qualifiers and `@Primary`](https://versatia.dev/docs/dependency-injection/qualifiers) |
+| [VersatiaExample-DI-CustomScope](https://github.com/VersatiaFramework/VersatiaExample-DI-CustomScope) | A plugin-defined scope annotation inheriting a built-in one | [Defining your own scope](https://versatia.dev/docs/internals/enhancements#defining-your-own-scope) |
+| [VersatiaExample-DI-PrivateBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-PrivateBeans) | Private beans and functions handled through reflection | [Direct access versus reflection](https://versatia.dev/docs/internals/descriptor#direct-access-versus-reflection) |
+| [VersatiaExample-DI-SharedBeans](https://github.com/VersatiaFramework/VersatiaExample-DI-SharedBeans) | Beans exposed by one plugin and injected by another | [Beans across plugins](https://versatia.dev/docs/dependency-injection/cross-plugin) |
+| [VersatiaExample-DI-OptionalPlugins](https://github.com/VersatiaFramework/VersatiaExample-DI-OptionalPlugins) | A bean conditional on Vault with `@Primary`, a fallback without it, and a condition of your own | [Optional plugins](https://versatia.dev/docs/optional-plugins) |
 
 ### Lifecycle
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-Lifecycle-AutoInvoke](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-AutoInvoke) | `@AutoInvoke` on the main class, a bean and an object | [Auto-invoked functions](https://versatiaframework.github.io/VersatiaDocs/docs/lifecycle/auto-invoke) |
-| [VersatiaExample-Lifecycle-Reload](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-Reload) | A plugin designed for reload: values re-read, a derived value rebuilt, a task rescheduled when its interval changes, a reload from code | [Reloading plugins](https://versatiaframework.github.io/VersatiaDocs/docs/lifecycle/reload) |
+| [VersatiaExample-Lifecycle-AutoInvoke](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-AutoInvoke) | `@AutoInvoke` on the main class, a bean and an object | [Auto-invoked functions](https://versatia.dev/docs/lifecycle/auto-invoke) |
+| [VersatiaExample-Lifecycle-Reload](https://github.com/VersatiaFramework/VersatiaExample-Lifecycle-Reload) | A plugin designed for reload: values re-read, a derived value rebuilt, a task rescheduled when its interval changes, a reload from code | [Reloading plugins](https://versatia.dev/docs/lifecycle/reload) |
 
 ### Events
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-Events-Listeners](https://github.com/VersatiaFramework/VersatiaExample-Events-Listeners) | Bukkit listeners registered automatically, with injection | [Event listeners](https://versatiaframework.github.io/VersatiaDocs/docs/events) |
+| [VersatiaExample-Events-Listeners](https://github.com/VersatiaFramework/VersatiaExample-Events-Listeners) | Bukkit listeners registered automatically, with injection | [Event listeners](https://versatia.dev/docs/events) |
 
 ### Tasks
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-Tasks-Background](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Background) | A `BackgroundTask` broadcasting at a configured period, restarted by every reload | [Background tasks](https://versatiaframework.github.io/VersatiaDocs/docs/tasks#background-tasks) |
-| [VersatiaExample-Tasks-PluginScope](https://github.com/VersatiaFramework/VersatiaExample-Tasks-PluginScope) | Coroutines of your own in the injected `PluginScope`: a combat tag per player in `KeyedJobs` | [Your own coroutines](https://versatiaframework.github.io/VersatiaDocs/docs/tasks#your-own-coroutines) |
-| [VersatiaExample-Tasks-Conditions](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Conditions) | Conditions rechecked on events: a teleport countdown cancelled by moving, a beacon lit while players are online | [Conditions](https://versatiaframework.github.io/VersatiaDocs/docs/tasks#conditions) |
-| [VersatiaExample-Tasks-Threads](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Threads) | File reading moved off the server thread with `withContext(Dispatchers.IO)` and back for the Bukkit calls | [Threads](https://versatiaframework.github.io/VersatiaDocs/docs/tasks#threads) |
+| [VersatiaExample-Tasks-Background](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Background) | A `BackgroundTask` broadcasting at a configured period, restarted by every reload | [Background tasks](https://versatia.dev/docs/tasks#background-tasks) |
+| [VersatiaExample-Tasks-PluginScope](https://github.com/VersatiaFramework/VersatiaExample-Tasks-PluginScope) | Coroutines of your own in the injected `PluginScope`: a combat tag per player in `KeyedJobs` | [Your own coroutines](https://versatia.dev/docs/tasks#your-own-coroutines) |
+| [VersatiaExample-Tasks-Conditions](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Conditions) | Conditions rechecked on events: a teleport countdown cancelled by moving, a beacon lit while players are online | [Conditions](https://versatia.dev/docs/tasks#conditions) |
+| [VersatiaExample-Tasks-Threads](https://github.com/VersatiaFramework/VersatiaExample-Tasks-Threads) | File reading moved off the server thread with `withContext(Dispatchers.IO)` and back for the Bukkit calls | [Threads](https://versatia.dev/docs/tasks#threads) |
 
 ### Enhancements
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches) | `@DisableVersatiaFeatures` on a base class and on the main class | [Enhancements on a base class](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#enhancements-on-a-base-class) |
-| [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom) | A custom enhancement: an annotation and its processor in a library plugin | [Defining your own enhancement](https://versatiaframework.github.io/VersatiaDocs/docs/internals/enhancements#defining-your-own-enhancement) |
+| [VersatiaExample-Enhancements-FeatureSwitches](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-FeatureSwitches) | `@DisableVersatiaFeatures` on a base class and on the main class | [Enhancements on a base class](https://versatia.dev/docs/internals/enhancements#enhancements-on-a-base-class) |
+| [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom) | A custom enhancement: an annotation and its processor in a library plugin | [Defining your own enhancement](https://versatia.dev/docs/internals/enhancements#defining-your-own-enhancement) |
 
 ### Text
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-Text-Messages](https://github.com/VersatiaFramework/VersatiaExample-Text-Messages) | Messages: files under `messages/` reloaded with the plugin, filled with runtime arguments | [Messages](https://versatiaframework.github.io/VersatiaDocs/docs/messages) |
+| [VersatiaExample-Text-Messages](https://github.com/VersatiaFramework/VersatiaExample-Text-Messages) | Messages: files under `messages/` reloaded with the plugin, filled with runtime arguments | [Messages](https://versatia.dev/docs/messages) |
 
 ### Modules
 
 | Example | Shows | Documentation |
 |---|---|---|
-| [VersatiaExample-Modules-Database](https://github.com/VersatiaFramework/VersatiaExample-Modules-Database) | The Database module: player coins in a store loaded at login, migrations from the JAR, a transaction and a leaderboard read in the background | [Database module](https://versatiaframework.github.io/VersatiaDocs/docs/modules/database) |
+| [VersatiaExample-Modules-Database](https://github.com/VersatiaFramework/VersatiaExample-Modules-Database) | The Database module: player coins in a store loaded at login, migrations from the JAR, a transaction and a leaderboard read in the background | [Database module](https://versatia.dev/docs/modules/database) |
 
 ## Adding an example
 
