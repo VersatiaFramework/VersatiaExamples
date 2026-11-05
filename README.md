@@ -1,6 +1,6 @@
 # Versatia examples
 
-Every example is a repository of its own: one Paper 1.21.4 plugin (two, where the feature is about
+Every example is a repository of its own: one Paper 26.3 plugin (two, where the feature is about
 two plugins) showing exactly one feature of the [Versatia framework](https://versatia.dev/), with one file to
 read, the log lines to expect and a few things to try. Repositories are named
 `VersatiaExample-<Topic>-<Feature>`, so they sort by topic on GitHub; the order in which to read
@@ -8,7 +8,7 @@ them is below.
 
 ## Before you start
 
-Every example runs on a Paper 1.21.4 server with VersatiaCore installed. The examples whose
+Every example runs on a Paper 26.3 server with VersatiaCore installed. The examples whose
 "Things to try" reload a plugin with `/versatia reload` also need the
 [CommandAPI](https://commandapi.jorel.dev) 12.x plugin, which registers that command; each README
 lists what its example needs under Building.
