@@ -34,7 +34,8 @@ lists what its example needs under Building.
 17. [VersatiaExample-Enhancements-Custom](https://github.com/VersatiaFramework/VersatiaExample-Enhancements-Custom): Shows a custom enhancement: an annotation and its processor in a library plugin
 18. [VersatiaExample-Text-Messages](https://github.com/VersatiaFramework/VersatiaExample-Text-Messages): Shows messages: files under `messages/` reloaded with the plugin, filled with runtime arguments
 19. [VersatiaExample-Text-Styles](https://github.com/VersatiaFramework/VersatiaExample-Text-Styles): Shows styles: messages that name what a text is, the server's `styles.yml` saying how it looks, and a style and a tag of the plugin's own with the defaults it ships
-20. [VersatiaExample-Modules-Database](https://github.com/VersatiaFramework/VersatiaExample-Modules-Database): Shows the Database module: player coins in a store loaded at login, migrations from the JAR, a transaction and a leaderboard read in the background
+20. [VersatiaExample-Text-ServerPresentations](https://github.com/VersatiaFramework/VersatiaExample-Text-ServerPresentations): Shows presentations for the whole server: one plugin deciding how a player appears in every plugin's messages, with a card on hover and a rank
+21. [VersatiaExample-Modules-Database](https://github.com/VersatiaFramework/VersatiaExample-Modules-Database): Shows the Database module: player coins in a store loaded at login, migrations from the JAR, a transaction and a leaderboard read in the background
 
 ## By topic
 
@@ -96,6 +97,7 @@ lists what its example needs under Building.
 |---|---|---|
 | [VersatiaExample-Text-Messages](https://github.com/VersatiaFramework/VersatiaExample-Text-Messages) | Messages: files under `messages/` reloaded with the plugin, filled with runtime arguments | [Messages](https://versatia.dev/docs/messages) |
 | [VersatiaExample-Text-Styles](https://github.com/VersatiaFramework/VersatiaExample-Text-Styles) | Styles: messages that name what a text is, the server's `styles.yml` saying how it looks, and a style and a tag of the plugin's own with the defaults it ships | [Styles](https://versatia.dev/docs/messages/styles) |
+| [VersatiaExample-Text-ServerPresentations](https://github.com/VersatiaFramework/VersatiaExample-Text-ServerPresentations) | Presentations for the whole server: one plugin deciding how a player appears in every plugin's messages, with a card on hover and a rank | [Presentations for the whole server](https://versatia.dev/docs/messages/arguments#server-presentations) |
 
 ### Modules
 
